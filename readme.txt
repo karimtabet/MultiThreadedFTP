@@ -1,20 +1,19 @@
-----------------------------======================================================================================----------------------------
-----------------------------============================ Operating Systems & Networks ============================----------------------------
-----------------------------============================         Assignment 2         ============================----------------------------
-----------------------------============================      Candidate No: 52655     ============================----------------------------
-----------------------------============================         26/05/2011           ============================----------------------------
-
+Multi Threaded Byte Level File Transfer Protocol
+Author: Karim Tabet
+Version: 1.0 26/05/2011
   SERVER PASSWORD: enterprise
   
   How to use the protocol:
 
   1. Compile and run fss.java on a specific port (e.g. java fss 1420)
 
-  2. Compile and run fsc.java on the servers address and port. (e.g. java fsc localhost 1420)
+  2. Server will ask to set password. Enter password now.
 
-  3. If connection is made, server will prompt for password. Enter password now.
+  3. Compile and run fsc.java on the servers address and port. (e.g. java fsc localhost 1420)
 
-  4. Enter 1 of 5 commands into fsc:
+  4. If connection is made, server will prompt for password. Enter password now.
+
+  5. Enter 1 of 5 commands into fsc:
   	  i.   lls: list contents of local (fsc) directory.
 	  ii.  rls: list contents of remote (fss) directory.
 	  iii. put [name]: takes the  file [name] from the local directory (fsc) and saves it in the remote server's current directory (fss).
@@ -29,5 +28,3 @@
   file if you experience problems with connectivity to ensure your address is not listed or if you wish to block any connecting addresses!
 
   Enjoy! :)
-
-----------------------------======================================================================================----------------------------
