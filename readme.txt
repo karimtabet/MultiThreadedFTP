@@ -1,8 +1,7 @@
 Multi Threaded Byte Level File Transfer Protocol
 Author: Karim Tabet
 Version: 1.0 26/05/2011
-  SERVER PASSWORD: enterprise
-  
+
   How to use the protocol:
 
   1. Compile and run fss.java on a specific port (e.g. java fss 1420)
